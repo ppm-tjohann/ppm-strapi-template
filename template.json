@@ -1,0 +1,10 @@
+{
+  "package": {
+    "dependencies": {
+      "pg": "^8.8.0",
+      "strapi-plugin-duplicate-button": "^1.0.4",
+      "strapi-plugin-preview-button": "^1.0.1",
+      "strapi-provider-upload-do": "^3.6.7"
+    }
+  }
+}

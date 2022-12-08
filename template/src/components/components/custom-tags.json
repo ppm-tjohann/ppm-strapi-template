@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_custom_tags",
+  "info": {
+    "displayName": "customTags",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

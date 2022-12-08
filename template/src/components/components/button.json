@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "internalLink": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "externalLink": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "contained",
+        "outlined",
+        "text"
+      ],
+      "default": "contained"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "text"
+      ],
+      "default": "primary"
+    }
+  }
+}

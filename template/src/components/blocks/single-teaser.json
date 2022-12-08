@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_single_teasers",
+  "info": {
+    "displayName": "singleTeaser",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_teasers",
+  "info": {
+    "displayName": "teaser",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

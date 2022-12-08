@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_blocks_content_medias",
+  "info": {
+    "displayName": "contentMedia",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.header",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "textPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "primary",
+        "secondary"
+      ],
+      "default": "default"
+    }
+  }
+}

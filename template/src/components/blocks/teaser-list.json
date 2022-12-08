@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_teaser_lists",
+  "info": {
+    "displayName": "teaserList",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.header"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_links",
+  "info": {
+    "displayName": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "internalLink": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "externalLink": {
+      "type": "string"
+    }
+  }
+}

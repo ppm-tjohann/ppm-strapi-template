@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "preventIndexing": {
+      "type": "boolean"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "customTags": {
+      "displayName": "customTags",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.custom-tags"
+    }
+  }
+}
